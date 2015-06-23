@@ -1,4 +1,4 @@
-View Extensions [![Build Status](https://travis-ci.org/DispatchMe/meteor-view-extensions.svg?branch=master)](https://travis-ci.org/DispatchMe/meteor-viewport)
+View Extensions [![Build Status](https://travis-ci.org/DispatchMe/meteor-view-extensions.svg?branch=master)](https://travis-ci.org/DispatchMe/meteor-view-extensions)
 ======
 
 ##Usage
