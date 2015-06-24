@@ -2,7 +2,7 @@ Package.describe({
   name: 'dispatch:view-extensions',
   summary: 'Extend meteor views with some useful helper functions.',
   git: 'https://github.com/DispatchMe/meteor-view-extensions.git',
-  version: '0.0.1'
+  version: '0.0.2'
 });
 
 Package.onUse(function (api) {
@@ -14,6 +14,7 @@ Package.onUse(function (api) {
     'reactive-var',
     'templating',
     'tracker',
+    'underscore',
 
     // atmosphere
     'dispatch:blaze-emitter@0.0.4',
@@ -23,8 +24,6 @@ Package.onUse(function (api) {
   api.addFiles([
     'view_extensions.js',
   ], 'web');
-
-  api.export('Viewport', 'web');
 });
 
 Package.onTest(function (api) {
@@ -32,7 +31,7 @@ Package.onTest(function (api) {
     'templating',
     'test-helpers',
     'tinytest',
-    'dispatch:view-extensions@0.0.1'
+    'dispatch:view-extensions@0.0.2'
   ], 'web');
 
   api.addFiles([
