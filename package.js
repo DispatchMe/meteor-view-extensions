@@ -2,7 +2,7 @@ Package.describe({
   name: 'dispatch:view-extensions',
   summary: 'Extend meteor views with some useful helper functions.',
   git: 'https://github.com/DispatchMe/meteor-view-extensions.git',
-  version: '0.0.2'
+  version: '1.0.0'
 });
 
 Package.onUse(function (api) {
@@ -31,7 +31,7 @@ Package.onTest(function (api) {
     'templating',
     'test-helpers',
     'tinytest',
-    'dispatch:view-extensions@0.0.2'
+    'dispatch:view-extensions'
   ], 'web');
 
   api.addFiles([

@@ -63,8 +63,6 @@ Blaze.View.prototype.attach = function (parent, nextNode) {
 
   if (!self.isRendered) self.render();
 
-  if (self.isAttached) return self;
-
   if (parent instanceof Blaze.View) {
     var domrange = parent._domrange;
     parent = domrange.parentElement;
